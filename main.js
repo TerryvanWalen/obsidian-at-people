@@ -1805,7 +1805,7 @@ var AtPeopleSuggestor = class extends import_obsidian5.EditorSuggest {
   getSuggestions(context) {
     let suggestions = [];
     for (let key in this.peopleFileMap || {})
-      if (key.toLowerCase().startsWith(context.query))
+      if (key.toLowerCase().startsWith(context.query.toLowerCase()))
         suggestions.push({
           suggestionType: "set",
           displayText: key,
