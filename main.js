@@ -1690,8 +1690,6 @@ var createFileFromTemplate = async (app2, templatePath, filePath) => {
     await app2.vault.createBinary(filePath, templateContent);
     return;
   }
-  console.log(templatesPlugin);
-  console.log(templatesPlugin.templates);
   const newFile = await app2.vault.createBinary(filePath, "");
   const newLeaf = app2.workspace.getLeaf("tab");
   await newLeaf.openFile(newFile, { active: false });
