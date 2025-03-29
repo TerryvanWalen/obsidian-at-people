@@ -3,7 +3,9 @@
   "name": "At People",
   "version": "1.0.3",
   "description": "Use the @ to create links to people files.",
-  "author": "saibotsivad",
-  "authorUrl": "https://davistobias.com",
+  "author": "TerryvanWalen",
+  "authorUrl": "https://github.com/TerryvanWalen",
+  "originalAuthor": "saibotsivad",
+  "originalAuthorUrl": "https://davistobias.com",
   "isDesktopOnly": false
 }
